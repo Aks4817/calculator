@@ -1,0 +1,68 @@
+.body{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 558px;;
+    position: absolute;
+    padding:20px;
+    top:10%;
+    left:20%;
+    
+}
+.row1,.row2,.row3,.row4,.row5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px
+}
+.buttons{
+    width: 80px;
+    font-size: 60px;
+    height: 80px;
+}
+button[id="clear"]{
+    width: 48%;
+    font-size: 25px;
+    height: 50px;
+    background-color: rgb(234, 125, 147);
+    padding:20px;
+    margin:10px;    
+    padding-bottom: 40px;
+}
+button[id="delete"]{
+    font-size: 25px;
+    height: 50px;
+    width: 48%;
+    background-color:rgb(138, 172, 235);
+    padding:20px;
+    margin:10px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.screen{
+    width: auto;
+    height: 100px;
+    background-color: #eee;
+    margin: 10px;
+}
+.previous{
+    height: 30px;
+    text-align: end;
+    font-size: 25px;
+}
+.curr{
+    height: 69px;
+}
+.curr{
+    text-align: end;
+    font-size: 40px;
+}
+.heading{
+    position: absolute;
+    left: 60%;
+    top:40%;
+    font-size: 50px;
+    font-weight: 800;
+
+}
